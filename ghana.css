@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bandera {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cuadro {
+    width: 100%;
+    height: 100%;
+    /*border: 2px solid red;*/
+}
+
+.rojo {
+    background-color: #F00000;
+}
+
+.amarillo {
+    background-color: #FFB800;
+}
+
+.verde {
+    background-color: #008A00;
+}
+
+.estrella {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8rem;
+    transform: translate(-50%, -50%);
+}

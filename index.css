@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    color: #333;
+    font-size: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+li {
+    margin: 20px 0;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover en enlaces */
+a:hover {
+    background-color: #0056b3;
+}
